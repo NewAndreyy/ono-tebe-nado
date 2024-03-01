@@ -2,25 +2,22 @@
     padding: 92px 24px 96px 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    font-family: Raleway;
     font-size: 18px;
     font-weight: normal;
     
 }
-.header_logo {
-    
-    
+.header_logo { 
     margin-left: 43px;
     grid-column-start: 2;
     width: 148px;
     height: 105px;
+
 }
 .header_logo_image {
     width: 95%;
 
 }
-.header_menu {
-    
+.header_menu { 
     margin-left: 25px;
     grid-column-start: 1;
     margin-top: 46px;
@@ -33,9 +30,7 @@
     white-space: nowrap;
     
 }
-.header_menu_list-item {
-    
-    
+.header_menu_list-item {  
     list-style: circle;
     
 }
@@ -96,7 +91,6 @@
     font-size: 100px;
     line-height: 115%;
     color:rgb(255, 255, 255);
-    
     display: flex;
     flex-direction: column;
     letter-spacing: 0.3em;
