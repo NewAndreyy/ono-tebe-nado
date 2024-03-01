@@ -8,7 +8,8 @@
 }
 
 
-.header_logo { 
+.header_logo {
+
     margin-left: 43px;
     grid-column-start: 2;
     width: 148px;
@@ -20,7 +21,6 @@
     width: 95%;
 
 }
-
 
 .header_menu { 
     margin-left: 25px;
@@ -343,7 +343,8 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 21px;   
+    line-height: 21px;
+
 }
 
 .footer__menu-link_active {
