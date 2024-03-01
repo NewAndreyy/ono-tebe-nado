@@ -22,7 +22,8 @@
 
 }
 
-.header_menu { 
+.header_menu {  
+    
     margin-left: 25px;
     grid-column-start: 1;
     margin-top: 46px;
