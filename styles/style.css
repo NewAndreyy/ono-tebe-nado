@@ -1,9 +1,10 @@
 .header {
+    font-size: 18px;
+    font-weight: normal;
     padding: 92px 24px 96px 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    font-size: 18px;
-    font-weight: normal;
+    
     
 }
 
@@ -32,9 +33,9 @@
 }
 
 .header_menu_list {
+    line-height: 21px;
     display: flex;
     gap: 10px 33px;
-    line-height: 21px;
     white-space: nowrap;
     
 }
@@ -80,6 +81,7 @@
 /*COVER*/
 
 .cover {
+    font-weight: bold;
     position: relative;
     width: 1100px;
     height: 757px;
@@ -87,7 +89,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-weight: bold;
+    
    
 }
 .overlay {
@@ -102,15 +104,15 @@
 
 
 .cover_title { 
+    font-size: 100px;
+    line-height: 115%;
+    letter-spacing: 0.3em;
     position: absolute;
     z-index: 1;
     font-weight: bold;
-    font-size: 100px;
-    line-height: 115%;
     color:rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    letter-spacing: 0.3em;
     margin: 165px 50px 135px 50px;
     width: 1000px;
     height: 355px;
@@ -142,6 +144,10 @@
 }
  
 .cover__description {
+    font-size: 22px;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    color: rgb(255, 255, 255);
     position: absolute;
     z-index: 1;
     display: flex;
@@ -149,10 +155,8 @@
     align-items: center;
     margin-top: 656px;
     margin-left: 76px;
-    word-spacing: 20px;
-    color: rgb(255, 255, 255);
-    font-size: 22px;
-    text-transform: uppercase;
+    
+    
 
 }
 
@@ -164,16 +168,14 @@
 }
 
 .bet-button {
-
-    border: 1px solid #fff;
-    padding: 12px 32px;
-    color: inherit;
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     line-height: normal;
-    text-align: center;
     text-transform: uppercase;
-
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 12px 32px;
+    color: inherit;
     background: transparent;
     margin-left: 72px;
     cursor: pointer;
@@ -187,13 +189,15 @@
 }
 
 .lots_heading {
-    padding-left: 40px;
-    padding-bottom: 27px;
+
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
     letter-spacing: 0%;
     text-transform: uppercase;
+    padding-left: 40px;
+    padding-bottom: 27px;
+    
 
 }
 
@@ -270,10 +274,12 @@
 }
 
 .lots__look-more-link {
-    padding-left: 41px;
+
     font-weight: normal;
     font-size: 20px;
     line-height: normal;
+    padding-left: 41px;
+    
 }
 
 /*ABOUT*/
@@ -314,22 +320,26 @@
 }
 
 .about__title {
-    padding-bottom: 100px;
+
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
     text-transform: uppercase;
+    padding-bottom: 100px;
+    
 
 }
 
 .about__text {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+    
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.01em;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
 
 }
 
